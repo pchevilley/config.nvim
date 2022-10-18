@@ -17,4 +17,10 @@ return require('packer').startup(function(use)
     }
     use 'nvim-telescope/telescope-fzf-native.nvim'
     use {'neoclide/coc.nvim', branch = 'release'}
+    use {
+       'lewis6991/gitsigns.nvim',
+       config = function()
+           require('gitsigns').setup()
+       end
+    }
 end)
