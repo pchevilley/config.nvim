@@ -6,6 +6,10 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
     use 'folke/tokyonight.nvim'
+    use 'marko-cerovac/material.nvim'    
+    use 'Shatur/neovim-ayu'
+    use 'VDuchauffour/neodark.nvim'
+    use 'rose-pine/neovim'
     use {
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
@@ -22,5 +26,9 @@ return require('packer').startup(function(use)
        config = function()
            require('gitsigns').setup()
        end
+    }
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
 end)

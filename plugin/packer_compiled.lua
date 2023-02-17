@@ -85,10 +85,41 @@ _G.packer_plugins = {
     path = "/home/chevpa/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/chevpa/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["material.nvim"] = {
+    loaded = true,
+    path = "/home/chevpa/.local/share/nvim/site/pack/packer/start/material.nvim",
+    url = "https://github.com/marko-cerovac/material.nvim"
+  },
+  ["neodark.nvim"] = {
+    loaded = true,
+    path = "/home/chevpa/.local/share/nvim/site/pack/packer/start/neodark.nvim",
+    url = "https://github.com/VDuchauffour/neodark.nvim"
+  },
+  neovim = {
+    loaded = true,
+    path = "/home/chevpa/.local/share/nvim/site/pack/packer/start/neovim",
+    url = "https://github.com/rose-pine/neovim"
+  },
+  ["neovim-ayu"] = {
+    loaded = true,
+    path = "/home/chevpa/.local/share/nvim/site/pack/packer/start/neovim-ayu",
+    url = "https://github.com/Shatur/neovim-ayu"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/chevpa/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = false,
+    needs_bufread = false,
+    path = "/home/chevpa/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
+    url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
