@@ -16,6 +16,13 @@ return require('packer').startup(function(use)
         run = ':TSUpdate'
         --run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
     }
+
+    use { 'TimUntersberger/neogit',
+        requires = {
+            'nvim-lua/plenary.nvim',
+            'sindrets/diffview.nvim'
+        }
+    }
     use {
         'nvim-telescope/telescope.nvim', branch = '0.1.x',
         requires = {{ 'nvim-lua/plenary.nvim' }}
