@@ -10,6 +10,7 @@ return require('packer').startup(function(use)
     use 'Shatur/neovim-ayu'
     use 'VDuchauffour/neodark.nvim'
     use 'rose-pine/neovim'
+    use 'kdheepak/lazygit.nvim'
     use {
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'

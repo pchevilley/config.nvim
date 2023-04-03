@@ -85,6 +85,11 @@ _G.packer_plugins = {
     path = "/home/chevpa/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["lazygit.nvim"] = {
+    loaded = true,
+    path = "/home/chevpa/.local/share/nvim/site/pack/packer/start/lazygit.nvim",
+    url = "https://github.com/kdheepak/lazygit.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/chevpa/.local/share/nvim/site/pack/packer/start/lualine.nvim",

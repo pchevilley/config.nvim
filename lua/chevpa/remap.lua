@@ -5,3 +5,5 @@ nnoremap("<leader>fg", "<cmd>Telescope live_grep<cr>")
 nnoremap("<leader>fb", "<cmd>Telescope buffers<cr>")
 nnoremap("<leader>ff", "<cmd>Telescope find_files<cr>")
 nnoremap("<leader>F", "<cmd>CocCommand prettier.formatFile<cr>")
+nnoremap("<leader>gg", "<cmd>LazyGit<cr>")
+

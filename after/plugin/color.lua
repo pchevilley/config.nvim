@@ -9,7 +9,11 @@ require('rose-pine').setup({
 		-- Blend colours against the "base" background
 		CursorLine = { bg = 'foam', blend = 40 },
 		StatusLine = { fg = 'love', bg = 'love', blend = 40 },
-	}
+	},
+    groups = {
+        background = "#2a273f"
+    }
+
 })
 
 -- Set colorscheme after options
